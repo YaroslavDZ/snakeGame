@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .wrapper {
+    position: relative;
+  }
+  
+  .block-hidden {
+    display: none;
+  }
+  
+  #restart {
+    display: block;
+  }
+  
+  .gameOver {
+    display: block;
+    padding: 10px;
+    border: 2px solid #333;
+    position: absolute;
+    top: 225px;
+    left: 225px;
+    transform: translateX(-25%);
+    background-color: #e8c6b4;
+  
+  }
